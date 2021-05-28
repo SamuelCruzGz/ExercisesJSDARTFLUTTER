@@ -1,0 +1,25 @@
+class Persona {
+  var name = "";
+  var age = "";
+  constructor (name, age){
+    this.name = name;
+    this.age = age;
+  }
+  void printName (name){
+    print ("Hola "+name+ " bienvenido a mi programa");
+  }
+  void printAge (age){
+    print ("Tu edad es: "+age);
+  }
+  void printInfo (name, age){
+    print ("Hola "+name+" Tienes: "+age);
+  }
+}
+
+void main() {
+ var persona = new Persona ();
+ persona.printName("Juan"); 
+ persona.printAge("80");
+ persona.printInfo("Samuel","21"); 
+}
+

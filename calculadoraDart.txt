@@ -1,0 +1,30 @@
+class Calculadora {
+  
+  void sumar (num0, num1){
+    dynamic suma = num0+num1;
+    print ("La suma es: ");
+    print (suma);
+  }
+  void restar (num0, num1){
+    dynamic resta = num0-num1;
+    print ("La resta es: ");
+    print (resta);
+  }
+  void multiplicar (num0, num1){
+    dynamic multiplicacion = num0*num1;
+    print ("La multiplicacion es: ");
+    print (multiplicacion);
+  }
+  void dividir (num0, num1){
+    dynamic dividir = num0/num1;
+    print ("La división es: ");
+    print (dividir);
+  }
+}
+void main() {
+  var calculadora = new Calculadora ();
+  calculadora.sumar(1,2);
+  calculadora.restar(5,4);
+  calculadora.multiplicar(5,5);
+  calculadora.dividir(6,3);
+}
